@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(169, 236, 214);
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.post_box{
+    background-color: white;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 6px;
+}
+
+.avatar{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name{
+    font-size: 16px;
+    line-height: 1;
+}
+
+.location{
+    font-size: 15px;
+}
+
+/* .avatar_content{
+    display: flex;
+} */
+
+
+.user_name_box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+
+.post_container{
+    width: 27%;
+    margin: auto;
+}
+
+.post_img{
+    height: 325px;
+    width:100%;
+}
+
+.post_img img{
+    height: 100%;
+    width: 100%;
+}
+
+.icon{
+    padding: 9px 12px;
+}
+
+.icon i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.like{
+    font-size: 16px;
+    padding: 0px 12px;
+}
+
+.username{
+    font-size: 16px;
+    padding: 9px 12px;
+}
+
+.comment{
+    display: inline;
+    font-weight: 400;
+    
+}
+
+.bottom_sec{
+    padding: 20px 0px;
+}
+
+.top{
+    background-color: white;
+    width:27% ;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+
+.text_logo{
+    width: 100px;
+
+}
+
+.pic_logo{
+    width: 32px;
+}
